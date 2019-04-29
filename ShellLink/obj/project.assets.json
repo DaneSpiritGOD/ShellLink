@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "PropertyStore/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/PropertyStore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PropertyStore.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "PropertyStore/1.0.0": {
+      "type": "project",
+      "path": "../PropertyStore/PropertyStore.csproj",
+      "msbuildProject": "../PropertyStore/PropertyStore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "PropertyStore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -213,7 +229,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\PropertyStore.csproj": {
+              "projectPath": "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\PropertyStore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
