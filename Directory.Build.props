@@ -1,0 +1,15 @@
+﻿<Project>
+  
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>securifybv</Authors>
+    <Company>MIT</Company>
+    <Description>A .NET Class Library for processing ShellLink (LNK) files</Description>
+    <PackageProjectUrl>https://github.com/securifybv/ShellLink</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/securifybv/ShellLink</RepositoryUrl>
+    <PackageTags>lnk .netstandard</PackageTags>
+    <Version>0.1</Version>
+  </PropertyGroup>
+
+</Project>
