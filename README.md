@@ -1,9 +1,18 @@
-# PropertyStore
+# Intro
+**This repository is copied from [securifybv](https://github.com/securifybv).**
+
+I am creating a lnk file for my wpf application. And I don't want to apply COM into my solution.  
+Then I search the github.com for opensource repository.
+
+The original intention of this copy is to build nugets of these two libraries. 
+
+I make a Azure Pipeline to build nuget automatically. Everyone can install these nugets for fast usage rather than copy files into their projects.
+# [PropertyStore](https://github.com/securifybv/PropertyStore)
 .NET Class Library for processing Serialized Property Stores as documented in [MS-PROPSTORE](https://msdn.microsoft.com/en-us/library/dd871346.aspx).
 
 This Class Library is mainly used as support library for the [ShellLink](https://github.com/securifybv/ShellLink) Class Library.
 
-# ShellLink
+# [ShellLink](https://github.com/securifybv/ShellLink)
 A .NET Class Library for processing ShellLink (LNK) files as documented in [MS-SHLLINK](https://msdn.microsoft.com/en-us/library/dd871305.aspx). It allows for reading, creating and modifying ShellLink (LNK) files.
 
 Note this Class Library depends on the [PropertyStore](https://github.com/securifybv/PropertyStore) Class Library.

@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "PropertyStore/0.1.0": {
+      "securifybv.PropertyStore/0.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/PropertyStore.dll": {}
+          "bin/placeholder/securifybv.PropertyStore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PropertyStore.dll": {}
+          "bin/placeholder/securifybv.PropertyStore.dll": {}
         }
       }
     }
@@ -182,7 +182,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "PropertyStore/0.1.0": {
+    "securifybv.PropertyStore/0.1.0": {
       "type": "project",
       "path": "../PropertyStore/PropertyStore.csproj",
       "msbuildProject": "../PropertyStore/PropertyStore.csproj"
@@ -191,7 +191,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "PropertyStore >= 0.1.0"
+      "securifybv.PropertyStore >= 0.1.0"
     ]
   },
   "packageFolders": {
@@ -202,7 +202,7 @@
     "version": "0.1.0",
     "restore": {
       "projectUniqueName": "E:\\workspace\\Projects\\ShellLink\\ShellLink\\ShellLink.csproj",
-      "projectName": "ShellLink",
+      "projectName": "securifybv.ShellLink",
       "projectPath": "E:\\workspace\\Projects\\ShellLink\\ShellLink\\ShellLink.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "E:\\workspace\\Projects\\ShellLink\\ShellLink\\obj\\",
