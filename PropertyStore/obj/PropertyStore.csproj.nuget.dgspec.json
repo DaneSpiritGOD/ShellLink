@@ -5,10 +5,10 @@
   },
   "projects": {
     "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\PropertyStore.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0",
       "restore": {
         "projectUniqueName": "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\PropertyStore.csproj",
-        "projectName": "PropertyStore",
+        "projectName": "securifybv.PropertyStore",
         "projectPath": "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\PropertyStore.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "E:\\workspace\\Projects\\ShellLink\\PropertyStore\\obj\\",

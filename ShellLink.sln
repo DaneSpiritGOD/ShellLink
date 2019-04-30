@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellLink", "ShellLink\ShellLink.csproj", "{F010EFBA-9BEE-4729-9DE4-3CFAFD2C3989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellLink", "ShellLink\ShellLink.csproj", "{F010EFBA-9BEE-4729-9DE4-3CFAFD2C3989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyStore", "PropertyStore\PropertyStore.csproj", "{E3FEADE6-6890-468C-8D23-C95A652D8F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyStore", "PropertyStore\PropertyStore.csproj", "{E3FEADE6-6890-468C-8D23-C95A652D8F9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject", "XUnitTestProject\XUnitTestProject.csproj", "{5741E341-FC7A-450C-8C1F-E991F8A78284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global", "global", "{73BFE5A5-FD81-4302-B252-8A8B2C331AA2}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+		Directory.Build.props = Directory.Build.props
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,10 @@ Global
 		{E3FEADE6-6890-468C-8D23-C95A652D8F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3FEADE6-6890-468C-8D23-C95A652D8F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3FEADE6-6890-468C-8D23-C95A652D8F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5741E341-FC7A-450C-8C1F-E991F8A78284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5741E341-FC7A-450C-8C1F-E991F8A78284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5741E341-FC7A-450C-8C1F-E991F8A78284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5741E341-FC7A-450C-8C1F-E991F8A78284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
